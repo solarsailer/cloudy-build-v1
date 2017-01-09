@@ -1,21 +1,26 @@
 {
-  "name": "brunch-with-base",
-  "description": "Web development boilerplate",
+  "name": "Rain Build",
+  "description": "Simple and quick interface for Unity Cloud Build",
   "author": "Matthieu Oger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:solarsailer/brunch-with-base.git"
+    "url": "git@github.com:solarsailer/unity-rain-build.git"
   },
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "now-start": "TODO",
+    "now-build": "TODO"
   },
   "standard": {
-    "globals": ["$"]
+    "globals": [
+      "$"
+    ]
   },
   "dependencies": {
+    "express": "^4.14.0",
     "jquery": "^3.1.1",
     "lodash": "^4.17.2",
     "normalize.css": "^5.0.0"
