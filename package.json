@@ -1,12 +1,12 @@
 {
-  "name": "Rain Build",
+  "name": "Cloudy Build",
   "description": "Simple and quick interface for Unity Cloud Build",
   "author": "Matthieu Oger",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:solarsailer/unity-rain-build.git"
+    "url": "git@github.com:solarsailer/cloudy-build.git"
   },
   "scripts": {
     "start": "brunch watch --server",
