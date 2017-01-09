@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Button.
+\* ---------------------------------------------------------- */
+
+.button {
+  display: block;
+
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+
+  color: white;
+  background: $color-brand;
+  border: none;
+  border-radius: 0.5rem;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+}

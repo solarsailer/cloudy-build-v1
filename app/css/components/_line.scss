@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Line.
+\* ---------------------------------------------------------- */
+
+.line {
+  margin-bottom: 2.5rem;
+}
+
+.line:last-of-type {
+  margin-bottom: 5rem;
+}
+
+.line__label {
+  margin-bottom: 0.5rem;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+.line__input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+
+  color: $color-brand;
+  border: 1px solid #dddddd;
+  border-radius: 0.5rem;
+
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.line__detail {
+  color: rgb(128, 128, 128);
+
+  font-size: 0.8em;
+  font-style: italic;
+}

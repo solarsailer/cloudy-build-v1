@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
 /* ---------------------------------------------------------- *\
- * Globals
+ * Globals.
 \* ---------------------------------------------------------- */
-
-/**
- * Box-model.
- */
 
 html {
   box-sizing: border-box;
+
+  color: $color-text;
+  background: $color-background;
+
+  font: 62.5%/1.4 $font-normal;
 }
 
 *,
@@ -18,43 +19,57 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Typography.
- */
-
-html {
-  font: 62.5%/1.4 $font-normal;
-}
-
-body {
-  font-size: 1.5em;
-}
-
-/**
- * Full-viewport body.
- */
-
 body {
   position: relative;
 
-  min-height: 100vh;
+  margin: 0;
+  padding: 15px;
+
+  font-size: 1.5em;
+}
+
+/* ---------------------------------------------------------- *\
+ * Reset.
+\* ---------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input {
   margin: 0;
 }
 
-/**
- * Colors.
- */
-
-html {
-  color: $color-text;
-  background: $color-overscroll;
-}
-
-body {
-  background: white;
-}
+/* ---------------------------------------------------------- *\
+ * Selection.
+\* ---------------------------------------------------------- */
 
 ::selection {
   color: white;
   background: $color-brand;
+}
+
+/* ---------------------------------------------------------- *\
+ * Link.
+\* ---------------------------------------------------------- */
+
+a,
+a:visited {
+  color: $color-brand;
+  border-bottom: 1px dotted currentColor;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: lighten($color-brand, 5%);
+  border-bottom-style: solid;
+}
+
+a:active,
+a:focus {
+  color: darken($color-brand, 10%);
 }

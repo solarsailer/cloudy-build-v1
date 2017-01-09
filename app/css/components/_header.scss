@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Header.
+\* ---------------------------------------------------------- */
+
+.header {
+  padding: 2rem;
+
+  color: white;
+
+  text-align: center;
+}
+
+.header__title {
+  color: $color-brand;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+}

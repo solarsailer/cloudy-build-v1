@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*! Copyright (c) [year] [fullname] */
+/*! Copyright (c) Matthieu Oger (solarsailer.net) */
 
 /* ---------------------------------------------------------- *\
  * Imports
@@ -9,6 +9,8 @@
 @import "data";
 @import "globals";
 
-/* ---------------------------------------------------------- *\
- * App
-\* ---------------------------------------------------------- */
+@import "components/header";
+@import "components/footer";
+@import "components/main";
+@import "components/line";
+@import "components/button";
