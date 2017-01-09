@@ -3,12 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Unity Rain Build</title>
 
+    <link rel="shortcut icon" href="favicon.ico?v=004">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
     <link rel="stylesheet" href="/static/css/master.css">
   </head>
   <body>
-    Hello, world!
+    <header class="header">
+      <h1 class="header__title">Unity Rain Build</h1>
+      <p>Get your latest <a href="https://unity3d.com/services/cloud-build">Unity Cloud Build</a> install link in a few seconds.</p>
+    </header>
+
+    <main role="main" class="main">
+      <form>
+        <div class="line">
+          <p class="line__field">
+            <label for="project" class="line__label">
+              Project
+            </label>
+            <input type="text" id="project" name="project" class="line__input" required>
+          </p>
+          <p class="line__detail">Your project name.</p>
+        </div>
+
+        <div class="line">
+          <p class="line__field">
+            <label for="org" class="line__label">
+              Organization
+            </label>
+            <input type="text" id="org" name="org" class="line__input" required>
+          </p>
+          <p class="line__detail">Your company name, probably.</p>
+        </div>
+
+        <div class="line">
+          <p class="line__field">
+            <label for="platform" class="line__label">
+              Platform Build Target
+            </label>
+            <input type="text" id="platform" name="platform" class="line__input" required>
+          </p>
+          <p class="line__detail">This is the name you gave to your build target for a specific platform. Check in the config of your project.</p>
+        </div>
+
+        <div class="line">
+          <p class="line__field">
+            <label for="apikey" class="line__label">
+              API Key
+            </label>
+            <input type="text" id="apikey" name="apikey" placeholder="axp818372dqsd917dqa1708bqs4258ab" class="line__input" required>
+          </p>
+          <p class="line__detail">Available in the <a href="https://developer.cloud.unity3d.com/preferences/">Unity Cloud Build preferences</a>.</p>
+        </div>
+
+        <p>
+          <button type="submit" class="button">Get Shareable Link</button>
+        </p>
+      </form>
+    </main>
+
+    <footer class="footer">
+      Made with ♥︎ by <a href="http://solarsailer.net/">Matthieu Oger</a>
+    </footer>
 
     <script src="/static/js/master.js"></script>
   </body>
