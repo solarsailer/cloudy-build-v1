@@ -1,6 +1,5 @@
 exports.paths = {
-  // Use `build` instead of `public`.
-  public: 'build'
+  public: __dirname
 }
 
 exports.files = {
@@ -47,5 +46,6 @@ exports.plugins = {
 }
 
 exports.server = {
-  port: 4000
+  port: 4000,
+  path: 'lib/server.js'
 }
