@@ -1,9 +1,3 @@
-$(() => {
-  $('#create-shareable-link').submit(function onSubmit (e) {
-    e.preventDefault()
+'use strict'
 
-    $.getJSON('/builds', $(this).serialize())
-      .then(console.log)
-      .catch(console.log)
-  })
-})
+require('get-builds')
