@@ -1,3 +1,4 @@
 'use strict'
 
-require('get-builds')
+require('./get-builds')
+require('./storage')
