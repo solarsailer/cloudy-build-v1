@@ -19,38 +19,58 @@
     <main role="main" class="main">
       <form id="get-latest-builds">
         <div class="line">
-          <p class="line__field">
-            <label for="project" class="line__label">
+          <p class="line__label">
+            <label class="line__main" for="project">
               Project
             </label>
-            <input type="text" id="project" name="project" class="line__input" required>
+
+            <label class="line__additional">
+              Store <input type="checkbox">
+            </label>
           </p>
-          <p class="line__detail">Your project name.</p>
+
+          <p>
+            <input type="text" class="line__input" id="project" name="project" required>
+          </p>
+
+          <p class="line__description">Your project name.</p>
         </div>
 
         <div class="line">
-          <p class="line__field">
-            <label for="org" class="line__label">
+          <p class="line__label">
+            <label class="line__main" for="org">
               Organization
             </label>
-            <input type="text" id="org" name="org" class="line__input" required>
+
+            <label class="line__additional">
+              Store <input type="checkbox">
+            </label>
           </p>
-          <p class="line__detail">Your company name, probably.</p>
+
+          <p>
+            <input type="text" class="line__input" id="org" name="org" required>
+          </p>
+
+          <p class="line__description">Your company name, probably.</p>
         </div>
 
         <div class="line">
-          <p class="line__field">
-            <label for="key" class="line__label">
+          <p class="line__label">
+            <label class="line__main" for="key">
               API Key
             </label>
-            <input type="text" id="key" name="key" placeholder="axp818372dqsd917dqa1708bqs4258ab" class="line__input" required>
-          </p>
-          <p class="line__detail">Available in the <a href="https://developer.cloud.unity3d.com/preferences/">Unity Cloud Build preferences</a>.</p>
-        </div>
 
-        <div class="line line--right">
+            <label class="line__additional">
+              Store <input type="checkbox">
+            </label>
+          </p>
+
           <p>
-            <label>Store data <input type="checkbox" id="store-data" class="line__checkbox"></label>
+            <input type="text" class="line__input" id="key" name="key" placeholder="axp818372dqsd917dqa1708bqs4258ab" required>
+          </p>
+
+          <p class="line__description">
+            Available in the <a href="https://developer.cloud.unity3d.com/preferences/">Unity Cloud Build preferences</a>.
           </p>
         </div>
 

@@ -8,20 +8,32 @@
   margin-bottom: 2.5rem;
 }
 
-.line--right {
-  text-align: right;
-}
-
 .line:last-of-type {
   margin-bottom: 5rem;
 }
 
 .line__label {
+  display: flex;
+
   margin-bottom: 0.5rem;
 
+  text-transform: uppercase;
+
+  align-items: baseline;
+}
+
+.line__main {
   font-weight: 900;
 
-  text-transform: uppercase;
+  flex: 1;
+}
+
+.line__additional {
+  font-size: 0.8em;
+}
+
+.line__additional :last-child {
+  margin-left: 5px;
 }
 
 .line__input {
@@ -40,7 +52,7 @@
   text-transform: uppercase;
 }
 
-.line__detail {
+.line__description {
   color: rgb(128, 128, 128);
 
   font-size: 0.8em;
