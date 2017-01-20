@@ -1,7 +1,7 @@
 {
   "name": "cloudy-build",
   "description": "Simple and quick interface for Unity Cloud Build",
-  "author": "Matthieu Oger",
+  "author": "Pixelnest Studio",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
