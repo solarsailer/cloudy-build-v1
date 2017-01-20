@@ -1,2 +1,3 @@
-require('./get-builds')
-require('./storage')
+import './get-builds'
+import './get-share-link'
+import './storage'
