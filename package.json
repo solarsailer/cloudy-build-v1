@@ -11,6 +11,7 @@
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
+    "test": "jest",
     "now-start": "node index"
   },
   "standard": {
@@ -34,6 +35,7 @@
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "javascript-brunch": "^2.0.0",
+    "jest": "^18.1.0",
     "postcss-brunch": "brunch/postcss-brunch#07961d39cecfbc9aa02b48259bb551e56defd4e8",
     "sass-brunch": "^2.7.0",
     "uglify-js-brunch": "^2.0.0"
