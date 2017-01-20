@@ -7,8 +7,8 @@ const SELECT_ID = '#builds'
 
 $(() => {
   const form = $(FORM_ID)
-  form.hide()
 
+  form.hide()
   form.submit(function onSubmitted (e) {
     e.preventDefault()
 
