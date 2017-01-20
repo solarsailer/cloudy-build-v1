@@ -15,7 +15,8 @@
   },
   "standard": {
     "globals": [
-      "$"
+      "$",
+      "_"
     ]
   },
   "dependencies": {
