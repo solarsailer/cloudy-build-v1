@@ -47,5 +47,5 @@ exports.plugins = {
 
 exports.server = {
   port: 4000,
-  path: 'lib/server.js'
+  path: 'server/index.js'
 }
