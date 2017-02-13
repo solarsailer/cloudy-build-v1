@@ -7,9 +7,9 @@ const Constants = require('./constants')
 // Module.
 // -------------------------------------------------------------
 
-function getLastSuccessfulBuilds (org, project, key) {
+function getLastSuccessfulBuilds (org, key) {
   const opts = {
-    url: Constants.API_BASE_URL + getBuildsUrl(org, project),
+    url: Constants.API_BASE_URL + getBuildsUrl(org),
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Basic ${key}`
