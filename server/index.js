@@ -20,7 +20,6 @@ module.exports = (port, root, callback) => {
 
   // API endpoints.
   app.get('/builds', getBuilds)
-  app.get('/link', getShareLink)
 
   app.listen(port, callback)
 }
