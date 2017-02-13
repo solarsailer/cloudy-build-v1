@@ -1,5 +1,3 @@
-import {showShareSection} from './get-share-link'
-
 const FORM_ID = '#get-latest-builds'
 
 // -------------------------------------------------------------
@@ -14,13 +12,14 @@ $(() => {
 
     $.getJSON('/builds', form.serialize())
       .then(onSuccess)
-      .catch(console.log) // TODO: error.
+      .catch(onError)
   })
 })
 
 function onSuccess (data) {
-  const form = $(FORM_ID)
-  form.hide()
+  // TODO
+}
 
-  showShareSection(data)
+function onError () {
+  // TODO: error.
 }

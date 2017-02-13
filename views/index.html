@@ -13,36 +13,11 @@
   <body>
     <header class="header">
       <h1 class="header__title">Cloudy Build</h1>
-      <p>Get your latest <a href="https://unity3d.com/services/cloud-build">Unity Cloud Build</a> install link in a few seconds.</p>
+      <p>Get your latest <a href="https://unity3d.com/services/cloud-build">Unity Cloud Build</a> install links in a few seconds.</p>
     </header>
 
     <main role="main" class="main">
       <form id="get-latest-builds">
-        <div class="line">
-          <p class="line__label">
-            <label class="line__main" for="project">
-              Project
-            </label>
-
-            <label class="line__additional">
-              Store
-              <input type="checkbox" data-store-toggle="project">
-            </label>
-          </p>
-
-          <p>
-            <input
-              required
-              type="text"
-              name="project"
-              class="line__input"
-              id="project"
-              data-store="project">
-          </p>
-
-          <p class="line__description">Your project name.</p>
-        </div>
-
         <div class="line">
           <p class="line__label">
             <label class="line__main" for="org">
@@ -83,7 +58,7 @@
           <p>
             <input
               required
-              type="text"
+              type="password"
               name="key"
               placeholder="axp818372dqsd917dqa1708bqs4258ab"
               class="line__input"
@@ -99,18 +74,6 @@
         <p>
           <button type="submit" class="button">
             Get Latest Builds
-          </button>
-        </p>
-      </form>
-
-      <form id="get-share-link" style="display: none">
-        <p>
-          <select id="builds" name="build"></select>
-        </p>
-
-        <p>
-          <button type="submit" class="button">
-            Get Share Link
           </button>
         </p>
       </form>
