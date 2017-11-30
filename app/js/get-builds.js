@@ -17,7 +17,7 @@ $(() => {
 })
 
 function onSuccess (data) {
-  // TODO
+  console.log(data)
 }
 
 function onError () {
